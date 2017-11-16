@@ -28,22 +28,35 @@ Please find the detailed instructions for how to setup access to the [Einstein P
 
 ### Salesforce DX - new scratch org
 
-Clone the repo to your local file system.
+1. Clone the repo to your local file system.
 
-```
-git clone https://github.com/muenzpraeger/salesforce-einstein-platform-apex
-```
+	```
+	git clone https://github.com/muenzpraeger/salesforce-einstein-platform-apex
+	```
 
-Change into the git repo directory and create a new scratch org
+1. Change into the git repo directory and create a new scratch org
 
-```
-sfdx force:org:create -s -f config/project-scratch-def.json
-```
+	```
+	sfdx force:org:create -s -f config/project-scratch-def.json
+	```
 
-Push the source to the newly created org.
-```
+1. Push the source to the newly created org.
+
+	```
 sfdx force:source:push
-```
+	```
+	
+1. Assign the Einstein Platform Playground permission set to your user:
+
+	```
+	sfdx force:user:permset:assign -n Einstein_Platform_Playground
+	```
+
+1. Open the scratch org:
+
+	```
+	sfdx force:org:open
+	```
 
 ### Salesforce DX - existing scratch org
 
