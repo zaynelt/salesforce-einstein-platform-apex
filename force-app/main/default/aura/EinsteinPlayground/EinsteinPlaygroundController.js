@@ -11,7 +11,7 @@
       { id: "FoodImageClassifier", label: "Pre-Built - Food Image Classifier" },
       {
         id: "GeneralImageClassifier",
-        label: "Pre-Build - General Image Classifier"
+        label: "Pre-Built - General Image Classifier"
       },
       { id: "SceneClassifier", label: "Pre-Built - Scene Image Classifier" },
       {
