@@ -12,10 +12,7 @@
 
     <div>
         <lightning:tabset>
-            <lightning:tab label="1. Data and Training">
-                <c:EinsteinDataAndTraining dataType="text-intent" defaultUrl="http://einstein.ai/text/case_routing_intent.csv" />
-            </lightning:tab>
-            <lightning:tab label="2. Prediction">
+            <lightning:tab label="1. Prediction">
                 <lightning:layout class="request-response">
                     <lightning:layoutitem size="6" class="request">
                         <div class="slds-text-title_caps">Request</div>
@@ -47,6 +44,9 @@
 
                     </lightning:layoutitem>
                 </lightning:layout>
+            </lightning:tab>
+            <lightning:tab label="2. Data and Training">
+                <c:EinsteinDataAndTraining dataType="text-intent" defaultUrl="http://einstein.ai/text/case_routing_intent.csv" />
             </lightning:tab>
         </lightning:tabset>
 
