@@ -25,8 +25,8 @@
       component.set(
           "v.defaultUrl",
           component.get("v.imageType") === "image"
-          ? "http://einstein.ai/images/mountainvsbeach.zip"
-          : "http://einstein.ai/images/mountainvsbeach.zip"
+          ? "https://s3-us-west-2.amazonaws.com/ztsfdc-demo-files/einstein-datasets/Cats.zip"
+          : "https://s3-us-west-2.amazonaws.com/ztsfdc-demo-files/einstein-datasets/Cats.zip"
       );
   }
 });

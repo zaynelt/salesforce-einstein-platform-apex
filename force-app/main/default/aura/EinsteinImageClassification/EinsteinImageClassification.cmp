@@ -9,7 +9,7 @@
     <aura:attribute name="pictureSrc" type="String" />
     <aura:attribute name="fileName" type="String" />
     <aura:attribute name="selectionModels" type="List" />
-    <aura:attribute name="defaultUrl" type="String" default="http://einstein.ai/images/mountainvsbeach.zip" />
+    <aura:attribute name="defaultUrl" type="String" default="https://s3-us-west-2.amazonaws.com/ztsfdc-demo-files/einstein-datasets/Cats.zip" />
 
     <aura:registerEvent name="waitingEvent" type="c:EventEinsteinWaiting" />
 
